@@ -4,7 +4,7 @@
 	$db_host = "localhost";		//資料庫位置
 	$db_table = "database_report";	//資料表名字
 	$db_username = "root";		//資料庫帳號
-	$db_password = "12345";		
+	$db_password = "1234";		
 	
 	$conn = mysqli_connect($db_host, $db_username, $db_password);
 	

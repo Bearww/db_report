@@ -9,7 +9,7 @@
 	$ac=$_SESSION['ac'];	
 	
     $sql = "SELECT cl.this_year, cl.class_year, cl.semester FROM class_list as cl, member as m
-			where m.ac = cl.student_ac and cl.student_ac = '".$ac."'  
+			where m.ac = cl.student_ac and cl.teacher_ac = '".$ac."'  
 			ORDER BY this_year DESC, semester DESC";
 	
 	$result=$conn->query($sql);
